@@ -278,7 +278,7 @@ Common status codes:
 
 ## Deployment
 
--  This API is deployed on Render at https://e-learning-4s7o.onrender.com
+-  This API is deployed on Render at https://e-learning-api-x08q.onrender.com/
 
 ## Acknowledgments
 
