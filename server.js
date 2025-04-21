@@ -8,6 +8,10 @@ connectDB;
 const app = express();
 app.use(express.json());
 
+app.get("/", (req, res) => {
+   res.status(200).send("Welcome to E-LEARNING API");
+});
+
 const authRouter = require("./src/routes/auth");
 const courseRouter = require("./src/routes/courses");
 
